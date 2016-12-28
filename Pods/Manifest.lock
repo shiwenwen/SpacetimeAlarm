@@ -1,0 +1,40 @@
+PODS:
+  - AMap3DMap (4.4.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.3.1)
+  - AMapLocation (2.1.1):
+    - AMapFoundation (~> 1.2)
+  - AMapSearch (4.3.0):
+    - AMapFoundation (~> 1.2)
+  - Bugly (2.4.2)
+  - IQKeyboardManagerSwift (4.0.7)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - AMap3DMap
+  - AMapLocation
+  - AMapSearch
+  - Bugly
+  - IQKeyboardManagerSwift
+  - RealmSwift
+  - SnapKit (>= 3.0.0)
+
+SPEC CHECKSUMS:
+  AMap3DMap: c3f6aa63aea668e34f88c7beea69167ef6e8f1a2
+  AMapFoundation: 636834a27cd003084f56b4232f3031e6a44c7e7e
+  AMapLocation: dd203f76b034ef5cb546600f4e1ffad2a3a14072
+  AMapSearch: c90cc018a6c5281af17af6058ca99218a4d4b442
+  Bugly: b09cd3c7e54048a0e079be88a7a99610f14eab8f
+  IQKeyboardManagerSwift: 58bbcf46b5cf9fd4ed625d28a60cb2fbae4ab0f4
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: 9dd33383a93a5002bf4267d2d1f4fd52e47a8120
+
+COCOAPODS: 1.1.0.beta.2

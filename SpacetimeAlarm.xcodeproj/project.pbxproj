@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272ADA8549E0AACEE27A4AD9 /* Pods_SpacetimeAlarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1593444A6DFF2F2F49F08763 /* Pods_SpacetimeAlarmUITests.framework */; };
+		69FCC58ED08727E5AFF742D8 /* Pods_SpacetimeAlarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD46B50DFD56BE4C7CA876B0 /* Pods_SpacetimeAlarmTests.framework */; };
+		88095F2D1DC42E27003C10EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F2C1DC42E27003C10EF /* AppDelegate.swift */; };
+		88095F321DC42E27003C10EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88095F301DC42E27003C10EF /* Main.storyboard */; };
+		88095F341DC42E27003C10EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88095F331DC42E27003C10EF /* Assets.xcassets */; };
+		88095F371DC42E27003C10EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88095F351DC42E27003C10EF /* LaunchScreen.storyboard */; };
+		88095F421DC42E27003C10EF /* SpacetimeAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F411DC42E27003C10EF /* SpacetimeAlarmTests.swift */; };
+		88095F4D1DC42E27003C10EF /* SpacetimeAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F4C1DC42E27003C10EF /* SpacetimeAlarmUITests.swift */; };
+		88095F6C1DC43561003C10EF /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F6B1DC43561003C10EF /* Params.swift */; };
+		88095F711DC43923003C10EF /* UITools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F701DC43923003C10EF /* UITools.swift */; };
+		88095F731DC4489F003C10EF /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F721DC4489F003C10EF /* Tools.swift */; };
+		88095F7E1DC46A94003C10EF /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F7C1DC46A94003C10EF /* BaseNavigationController.swift */; };
+		88095F7F1DC46A94003C10EF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F7D1DC46A94003C10EF /* BaseViewController.swift */; };
+		88095F811DC46AB2003C10EF /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F801DC46AB2003C10EF /* AlarmViewController.swift */; };
+		88095F831DC46D12003C10EF /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88095F821DC46D12003C10EF /* TriangleView.swift */; };
+		8826EC091DC9F27A00256E7D /* MonitorTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826EC081DC9F27A00256E7D /* MonitorTime.swift */; };
+		886052B21DC86E2E001B5677 /* AlarmClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886052B11DC86E2E001B5677 /* AlarmClockViewController.swift */; };
+		886052B41DC87B65001B5677 /* AlarmClockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886052B31DC87B65001B5677 /* AlarmClockCell.swift */; };
+		886622C41DC63B6B00501656 /* 超级铃声.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 88777BD11DC630B00086E997 /* 超级铃声.m4r */; };
+		886622C51DC63B6B00501656 /* 百搭铃声.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 88777BD41DC63A040086E997 /* 百搭铃声.m4r */; };
+		886622C71DC6D36100501656 /* MonitorLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886622C61DC6D36100501656 /* MonitorLocation.swift */; };
+		886622C91DC6D5FD00501656 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886622C81DC6D5FD00501656 /* SettingViewController.swift */; };
+		886622CD1DC6D6DD00501656 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886622CC1DC6D6DD00501656 /* BaseTableViewController.swift */; };
+		8876F9241DC49A48001BFFF9 /* TextInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8876F9231DC49A48001BFFF9 /* TextInputCell.swift */; };
+		8876F9261DC49B7A001BFFF9 /* AddMapAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8876F9251DC49B7A001BFFF9 /* AddMapAlarmViewController.swift */; };
+		88777BCA1DC585F40086E997 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88777BC91DC585F40086E997 /* AddressCell.swift */; };
+		88777BCC1DC5B9780086E997 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88777BCB1DC5B9780086E997 /* Location.swift */; };
+		88777BD01DC627000086E997 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88777BCF1DC627000086E997 /* AudioViewController.swift */; };
+		88777BD31DC633D20086E997 /* music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88777BD21DC633D20086E997 /* music.plist */; };
+		88914C3A1DC4A71500AC1769 /* MapAlarmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88914C391DC4A71500AC1769 /* MapAlarmDB.swift */; };
+		88914C3C1DC4D41B00AC1769 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88914C3B1DC4D41B00AC1769 /* MapViewController.swift */; };
+		8898D9861DC765D600BB9AE5 /* silent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8898D9851DC765D600BB9AE5 /* silent.mp3 */; };
+		88A554051DC8954800C29FDD /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A554041DC8954800C29FDD /* DatePicker.swift */; };
+		88A554091DC8BA0500C29FDD /* WeeksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A554081DC8BA0500C29FDD /* WeeksViewController.swift */; };
+		88CE055E1DC88DEA009D6801 /* AlarmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CE055D1DC88DEA009D6801 /* AlarmDB.swift */; };
+		88DC31981DC47F74002B0577 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC31971DC47F74002B0577 /* AlarmCell.swift */; };
+		A093F0A93094AC98E0EAAC6A /* Pods_SpacetimeAlarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D58C04F18E6BDFB19862EC /* Pods_SpacetimeAlarm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88095F3E1DC42E27003C10EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88095F211DC42E27003C10EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88095F281DC42E27003C10EF;
+			remoteInfo = SpacetimeAlarm;
+		};
+		88095F491DC42E27003C10EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88095F211DC42E27003C10EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88095F281DC42E27003C10EF;
+			remoteInfo = SpacetimeAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07709D0926C7587EB7D59F8F /* Pods-SpacetimeAlarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpacetimeAlarmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpacetimeAlarmUITests/Pods-SpacetimeAlarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1593444A6DFF2F2F49F08763 /* Pods_SpacetimeAlarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpacetimeAlarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D9C5169449DAAF48356704 /* Pods-SpacetimeAlarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpacetimeAlarmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpacetimeAlarmTests/Pods-SpacetimeAlarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75BA4D0F673226E99190D19D /* Pods-SpacetimeAlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpacetimeAlarmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpacetimeAlarmTests/Pods-SpacetimeAlarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		88095F291DC42E27003C10EF /* SpacetimeAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacetimeAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88095F2C1DC42E27003C10EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88095F311DC42E27003C10EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88095F331DC42E27003C10EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88095F361DC42E27003C10EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88095F381DC42E27003C10EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88095F3D1DC42E27003C10EF /* SpacetimeAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacetimeAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88095F411DC42E27003C10EF /* SpacetimeAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetimeAlarmTests.swift; sourceTree = "<group>"; };
+		88095F431DC42E27003C10EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88095F481DC42E27003C10EF /* SpacetimeAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacetimeAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88095F4C1DC42E27003C10EF /* SpacetimeAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetimeAlarmUITests.swift; sourceTree = "<group>"; };
+		88095F4E1DC42E27003C10EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88095F5A1DC4311F003C10EF /* SpacetimeAlarm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpacetimeAlarm-Bridging-Header.h"; sourceTree = "<group>"; };
+		88095F6B1DC43561003C10EF /* Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Params.swift; sourceTree = "<group>"; };
+		88095F701DC43923003C10EF /* UITools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITools.swift; sourceTree = "<group>"; };
+		88095F721DC4489F003C10EF /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		88095F7C1DC46A94003C10EF /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		88095F7D1DC46A94003C10EF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		88095F801DC46AB2003C10EF /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		88095F821DC46D12003C10EF /* TriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		8826EC081DC9F27A00256E7D /* MonitorTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorTime.swift; sourceTree = "<group>"; };
+		886052B11DC86E2E001B5677 /* AlarmClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmClockViewController.swift; sourceTree = "<group>"; };
+		886052B31DC87B65001B5677 /* AlarmClockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmClockCell.swift; sourceTree = "<group>"; };
+		886622C61DC6D36100501656 /* MonitorLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorLocation.swift; sourceTree = "<group>"; };
+		886622C81DC6D5FD00501656 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		886622CC1DC6D6DD00501656 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		8876F9231DC49A48001BFFF9 /* TextInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputCell.swift; sourceTree = "<group>"; };
+		8876F9251DC49B7A001BFFF9 /* AddMapAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMapAlarmViewController.swift; sourceTree = "<group>"; };
+		88777BC91DC585F40086E997 /* AddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		88777BCB1DC5B9780086E997 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		88777BCF1DC627000086E997 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		88777BD11DC630B00086E997 /* 超级铃声.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "超级铃声.m4r"; sourceTree = "<group>"; };
+		88777BD21DC633D20086E997 /* music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = music.plist; sourceTree = "<group>"; };
+		88777BD41DC63A040086E997 /* 百搭铃声.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "百搭铃声.m4r"; sourceTree = "<group>"; };
+		88914C391DC4A71500AC1769 /* MapAlarmDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAlarmDB.swift; sourceTree = "<group>"; };
+		88914C3B1DC4D41B00AC1769 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8898D9851DC765D600BB9AE5 /* silent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silent.mp3; sourceTree = "<group>"; };
+		88A554041DC8954800C29FDD /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		88A554081DC8BA0500C29FDD /* WeeksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksViewController.swift; sourceTree = "<group>"; };
+		88CE055D1DC88DEA009D6801 /* AlarmDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmDB.swift; sourceTree = "<group>"; };
+		88DC31971DC47F74002B0577 /* AlarmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		A2D58C04F18E6BDFB19862EC /* Pods_SpacetimeAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpacetimeAlarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15879001E54F04009F93BED /* Pods-SpacetimeAlarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpacetimeAlarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpacetimeAlarm/Pods-SpacetimeAlarm.release.xcconfig"; sourceTree = "<group>"; };
+		BD46B50DFD56BE4C7CA876B0 /* Pods_SpacetimeAlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpacetimeAlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31EED0C24C25E4455208A68 /* Pods-SpacetimeAlarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpacetimeAlarmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpacetimeAlarmUITests/Pods-SpacetimeAlarmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D91219FC1FF9331804D0F7C7 /* Pods-SpacetimeAlarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpacetimeAlarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpacetimeAlarm/Pods-SpacetimeAlarm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88095F261DC42E27003C10EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A093F0A93094AC98E0EAAC6A /* Pods_SpacetimeAlarm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88095F3A1DC42E27003C10EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FCC58ED08727E5AFF742D8 /* Pods_SpacetimeAlarmTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88095F451DC42E27003C10EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272ADA8549E0AACEE27A4AD9 /* Pods_SpacetimeAlarmUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06213807507D58632A076EED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D91219FC1FF9331804D0F7C7 /* Pods-SpacetimeAlarm.debug.xcconfig */,
+				B15879001E54F04009F93BED /* Pods-SpacetimeAlarm.release.xcconfig */,
+				45D9C5169449DAAF48356704 /* Pods-SpacetimeAlarmTests.debug.xcconfig */,
+				75BA4D0F673226E99190D19D /* Pods-SpacetimeAlarmTests.release.xcconfig */,
+				07709D0926C7587EB7D59F8F /* Pods-SpacetimeAlarmUITests.debug.xcconfig */,
+				C31EED0C24C25E4455208A68 /* Pods-SpacetimeAlarmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88095F201DC42E27003C10EF = {
+			isa = PBXGroup;
+			children = (
+				88095F2B1DC42E27003C10EF /* SpacetimeAlarm */,
+				88095F401DC42E27003C10EF /* SpacetimeAlarmTests */,
+				88095F4B1DC42E27003C10EF /* SpacetimeAlarmUITests */,
+				88095F2A1DC42E27003C10EF /* Products */,
+				06213807507D58632A076EED /* Pods */,
+				BE911BB0272D1FD7FEF81781 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88095F2A1DC42E27003C10EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88095F291DC42E27003C10EF /* SpacetimeAlarm.app */,
+				88095F3D1DC42E27003C10EF /* SpacetimeAlarmTests.xctest */,
+				88095F481DC42E27003C10EF /* SpacetimeAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88095F2B1DC42E27003C10EF /* SpacetimeAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				88777BCD1DC624D00086E997 /* Source */,
+				88095F5A1DC4311F003C10EF /* SpacetimeAlarm-Bridging-Header.h */,
+				88095F2C1DC42E27003C10EF /* AppDelegate.swift */,
+				88095F301DC42E27003C10EF /* Main.storyboard */,
+				88095F331DC42E27003C10EF /* Assets.xcassets */,
+				88095F351DC42E27003C10EF /* LaunchScreen.storyboard */,
+				88095F741DC44903003C10EF /* Base */,
+				88095F6A1DC43543003C10EF /* Util */,
+				88095F5E1DC432A7003C10EF /* AlarmClock */,
+				88095F621DC432A7003C10EF /* Setting */,
+				88095F661DC432A7003C10EF /* SpaceAlarm */,
+				88095F381DC42E27003C10EF /* Info.plist */,
+			);
+			path = SpacetimeAlarm;
+			sourceTree = "<group>";
+		};
+		88095F401DC42E27003C10EF /* SpacetimeAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				88095F411DC42E27003C10EF /* SpacetimeAlarmTests.swift */,
+				88095F431DC42E27003C10EF /* Info.plist */,
+			);
+			path = SpacetimeAlarmTests;
+			sourceTree = "<group>";
+		};
+		88095F4B1DC42E27003C10EF /* SpacetimeAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88095F4C1DC42E27003C10EF /* SpacetimeAlarmUITests.swift */,
+				88095F4E1DC42E27003C10EF /* Info.plist */,
+			);
+			path = SpacetimeAlarmUITests;
+			sourceTree = "<group>";
+		};
+		88095F5E1DC432A7003C10EF /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				88095F5F1DC432A7003C10EF /* Model */,
+				88095F601DC432A7003C10EF /* VC */,
+				88095F611DC432A7003C10EF /* View */,
+			);
+			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		88095F5F1DC432A7003C10EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88CE055D1DC88DEA009D6801 /* AlarmDB.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88095F601DC432A7003C10EF /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				886052B11DC86E2E001B5677 /* AlarmClockViewController.swift */,
+				88A554081DC8BA0500C29FDD /* WeeksViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		88095F611DC432A7003C10EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				886052B31DC87B65001B5677 /* AlarmClockCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88095F621DC432A7003C10EF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				88095F631DC432A7003C10EF /* Model */,
+				88095F641DC432A7003C10EF /* VC */,
+				88095F651DC432A7003C10EF /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		88095F631DC432A7003C10EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88095F641DC432A7003C10EF /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				886622C81DC6D5FD00501656 /* SettingViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		88095F651DC432A7003C10EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88095F661DC432A7003C10EF /* SpaceAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				88095F671DC432A7003C10EF /* Model */,
+				88095F681DC432A7003C10EF /* VC */,
+				88095F691DC432A7003C10EF /* View */,
+			);
+			path = SpaceAlarm;
+			sourceTree = "<group>";
+		};
+		88095F671DC432A7003C10EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88914C391DC4A71500AC1769 /* MapAlarmDB.swift */,
+				88777BCB1DC5B9780086E997 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88095F681DC432A7003C10EF /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				88095F801DC46AB2003C10EF /* AlarmViewController.swift */,
+				8876F9251DC49B7A001BFFF9 /* AddMapAlarmViewController.swift */,
+				88914C3B1DC4D41B00AC1769 /* MapViewController.swift */,
+				88777BCF1DC627000086E997 /* AudioViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		88095F691DC432A7003C10EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88095F821DC46D12003C10EF /* TriangleView.swift */,
+				88DC31971DC47F74002B0577 /* AlarmCell.swift */,
+				8876F9231DC49A48001BFFF9 /* TextInputCell.swift */,
+				88777BC91DC585F40086E997 /* AddressCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88095F6A1DC43543003C10EF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				88095F6B1DC43561003C10EF /* Params.swift */,
+				88095F6E1DC438FD003C10EF /* Tools */,
+				88095F6F1DC438FD003C10EF /* UITools */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		88095F6E1DC438FD003C10EF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				88095F721DC4489F003C10EF /* Tools.swift */,
+				886622C61DC6D36100501656 /* MonitorLocation.swift */,
+				8826EC081DC9F27A00256E7D /* MonitorTime.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		88095F6F1DC438FD003C10EF /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				88095F701DC43923003C10EF /* UITools.swift */,
+				88A554041DC8954800C29FDD /* DatePicker.swift */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		88095F741DC44903003C10EF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				88095F751DC44903003C10EF /* Model */,
+				88095F761DC44903003C10EF /* VC */,
+				88095F771DC44903003C10EF /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		88095F751DC44903003C10EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88095F761DC44903003C10EF /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				88095F7C1DC46A94003C10EF /* BaseNavigationController.swift */,
+				88095F7D1DC46A94003C10EF /* BaseViewController.swift */,
+				886622CC1DC6D6DD00501656 /* BaseTableViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		88095F771DC44903003C10EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88777BCD1DC624D00086E997 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				88777BCE1DC624D00086E997 /* m4r */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		88777BCE1DC624D00086E997 /* m4r */ = {
+			isa = PBXGroup;
+			children = (
+				88777BD11DC630B00086E997 /* 超级铃声.m4r */,
+				88777BD41DC63A040086E997 /* 百搭铃声.m4r */,
+				8898D9851DC765D600BB9AE5 /* silent.mp3 */,
+				88777BD21DC633D20086E997 /* music.plist */,
+			);
+			path = m4r;
+			sourceTree = "<group>";
+		};
+		BE911BB0272D1FD7FEF81781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D58C04F18E6BDFB19862EC /* Pods_SpacetimeAlarm.framework */,
+				BD46B50DFD56BE4C7CA876B0 /* Pods_SpacetimeAlarmTests.framework */,
+				1593444A6DFF2F2F49F08763 /* Pods_SpacetimeAlarmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88095F281DC42E27003C10EF /* SpacetimeAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88095F511DC42E27003C10EF /* Build configuration list for PBXNativeTarget "SpacetimeAlarm" */;
+			buildPhases = (
+				0253CC1D9A18348A8076665E /* [CP] Check Pods Manifest.lock */,
+				88095F251DC42E27003C10EF /* Sources */,
+				88095F261DC42E27003C10EF /* Frameworks */,
+				88095F271DC42E27003C10EF /* Resources */,
+				D6A002B1DDE76C264F937CCD /* [CP] Embed Pods Frameworks */,
+				AE2D94B37FF6552EEEFE5BE1 /* [CP] Copy Pods Resources */,
+				88095F6D1DC43789003C10EF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpacetimeAlarm;
+			productName = SpacetimeAlarm;
+			productReference = 88095F291DC42E27003C10EF /* SpacetimeAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88095F3C1DC42E27003C10EF /* SpacetimeAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88095F541DC42E27003C10EF /* Build configuration list for PBXNativeTarget "SpacetimeAlarmTests" */;
+			buildPhases = (
+				8C6826D18842F15AFBE89CB6 /* [CP] Check Pods Manifest.lock */,
+				88095F391DC42E27003C10EF /* Sources */,
+				88095F3A1DC42E27003C10EF /* Frameworks */,
+				88095F3B1DC42E27003C10EF /* Resources */,
+				C6A3D248DE0103D97BB1EC93 /* [CP] Embed Pods Frameworks */,
+				29A0F322A6DD78D39DDE896D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88095F3F1DC42E27003C10EF /* PBXTargetDependency */,
+			);
+			name = SpacetimeAlarmTests;
+			productName = SpacetimeAlarmTests;
+			productReference = 88095F3D1DC42E27003C10EF /* SpacetimeAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88095F471DC42E27003C10EF /* SpacetimeAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88095F571DC42E27003C10EF /* Build configuration list for PBXNativeTarget "SpacetimeAlarmUITests" */;
+			buildPhases = (
+				061F991D6B550EC671866537 /* [CP] Check Pods Manifest.lock */,
+				88095F441DC42E27003C10EF /* Sources */,
+				88095F451DC42E27003C10EF /* Frameworks */,
+				88095F461DC42E27003C10EF /* Resources */,
+				D7E56A5C9EA7881548E51ACD /* [CP] Embed Pods Frameworks */,
+				946B790FBD113A4152C79661 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88095F4A1DC42E27003C10EF /* PBXTargetDependency */,
+			);
+			name = SpacetimeAlarmUITests;
+			productName = SpacetimeAlarmUITests;
+			productReference = 88095F481DC42E27003C10EF /* SpacetimeAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88095F211DC42E27003C10EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "石文文";
+				TargetAttributes = {
+					88095F281DC42E27003C10EF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N5KSFY67W3;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					88095F3C1DC42E27003C10EF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N5KSFY67W3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88095F281DC42E27003C10EF;
+					};
+					88095F471DC42E27003C10EF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N5KSFY67W3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88095F281DC42E27003C10EF;
+					};
+				};
+			};
+			buildConfigurationList = 88095F241DC42E27003C10EF /* Build configuration list for PBXProject "SpacetimeAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88095F201DC42E27003C10EF;
+			productRefGroup = 88095F2A1DC42E27003C10EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88095F281DC42E27003C10EF /* SpacetimeAlarm */,
+				88095F3C1DC42E27003C10EF /* SpacetimeAlarmTests */,
+				88095F471DC42E27003C10EF /* SpacetimeAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88095F271DC42E27003C10EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886622C41DC63B6B00501656 /* 超级铃声.m4r in Resources */,
+				886622C51DC63B6B00501656 /* 百搭铃声.m4r in Resources */,
+				88095F371DC42E27003C10EF /* LaunchScreen.storyboard in Resources */,
+				88095F341DC42E27003C10EF /* Assets.xcassets in Resources */,
+				88777BD31DC633D20086E997 /* music.plist in Resources */,
+				8898D9861DC765D600BB9AE5 /* silent.mp3 in Resources */,
+				88095F321DC42E27003C10EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88095F3B1DC42E27003C10EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88095F461DC42E27003C10EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0253CC1D9A18348A8076665E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		061F991D6B550EC671866537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29A0F322A6DD78D39DDE896D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpacetimeAlarmTests/Pods-SpacetimeAlarmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88095F6D1DC43789003C10EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n# Copyright 2014-2016 Bugly, Tencent. All rights reserved.\n#\n# V1.2.1\n#\n# 2016.03.02\n#\n#\n################################################################################\n# # 注意: 请配置下面的信息\n################################################################################\nBUGLY_APP_ID=\"78c8163e38\"\nBUGLY_APP_KEY=\"ee76ffdf-ca4b-4725-a54c-8e43\"\nBUNDLE_IDENTIFIER=\"com.sww.SpacetimeAlarm\"\n###############################################################################\n# # 自定义配置\n################################################################################\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=1\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n#\n#\n# This script will extract symbols from the .dSYM and generate .symbol file(Bugly supported) and upload to server.\n# You could visit http://bugly.qq.com to get more details about Bugly.(Optional: buylyweb.et.wsd.com)\n#\n# Usage:\n#   * The instructions assume you have copyed this script into your project int Xcode.\n#   * Copy the \"buglySymbolIOS.jar\" file into the \"~/bin\" folder.\n#   * Open the project editor, select your build target.\n#   * Click \"Build Phases\" at the top of the project editor.\n#   * Click \"+\" button in the top left corner and select \"New Run Script Phase\".\n#   * Click \"Run Script\".\n#   * Paste the following script into the dark text box. You will have to uncomment the lines (remove the #) of course.\n#\n# --- SCRIPT BEGINS ON NEXT LINE, COPY AND EDIT FROM THERE ---\n#\n#\n#\n# --- END OF SCRIPT ---\n\n\n################################################################################\n# 注意: 如果你不知道此脚本的执行流程和用法，请不要随便修改！\n################################################################################\n\n# 退出执行并打印提示信息\nexitWithMessage() {\n    echo \"--------------------------------\"\n    echo -e \"${1}\"\n    echo \"--------------------------------\"\n    echo \"No upload and exit.\"\n    echo \"----------------------------------------------------------------\"\n    exit ${2}\n}\n\necho \"----------------------------------------------------------------\"\necho \"Copyright 2014-2015 Bugly @Tencent. All rights reserved.\"\n\necho \"This script will extract symbols from the .dSYM file and generate .symbol file(Bugly supported) and upload to server.\"\necho \"You could visit http://bugly.qq.com to get more details about Bugly.\"\necho \"----------------------------------------------------------------\"\n\necho \"Uploading dSYM to Bugly.\"\necho \"\"\n\n# Bugly服务域名\nDSYM_UPLOAD_DOMAIN=\"bugly.qq.com\"\n\n# 读取Info.plist文件中的版本信息\necho \"Info.Plist : ${INFOPLIST_FILE}\"\n\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\nBUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n# 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\nif [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\nBUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\nelse\nBUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\nfi\n\n# Bugly符号提取工具路径, 请确保buglySymboliOS.jar的路径是正确的\nBUGLY_SYMBOL_JAR_PATH=\"${SRCROOT}/dsymtool/buglySymboliOS.jar\"\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\necho \"--------------------------------\"\necho \"Step 1: Prepare application information.\"\necho \"--------------------------------\"\n\necho \"Product Name: ${PRODUCT_NAME}\"\necho \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\necho \"Version: ${BUNDLE_SHORT_VERSION}\"\necho \"Build: ${BUNDLE_VERSION}\"\n\necho \"Bugly App ID: ${BUGLY_APP_ID}\"\necho \"Bugly App key: ${BUGLY_APP_KEY}\"\necho \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\necho \"--------------------------------\"\necho \"Step 2: Check the arguments ...\"\n\n##检查模拟器编译是否允许上传符号\nif [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\nif [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否是Release模式编译\nif [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\nif [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否Archive操作\nif [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\nif [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\necho \"Archive the package\"\nelse\nexitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\nfi\nfi\n\n# 检查必须参数是否设置\nif [ ! \"${BUGLY_APP_ID}\" ]; then\nexitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\nfi\nif [[ \"${BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\nexitWithMessage \"Error: Bugly App ID not defined.\" 0\nfi\n\nif [ ! \"${BUGLY_APP_KEY}\" ]; then\nexitWithMessage \"Error: Bugly APP Key not defined.\" 0\nfi\n\nif [ ! \"${BUNDLE_IDENTIFIER}\" ]; then\nexitWithMessage \"Error: Bundle Identifier not defined.\" 0\nfi\n\nfunction uploadDSYM {\n    DSYM_SRC=\"$1\"\n    echo \".dSYM file: ${DSYM_SRC}\"\n    if [ ! -d \"$DSYM_SRC\" ]; then\n    exitWithMessage \"dSYM source not found: ${DSYM_SRC}\" 0\n    fi\n    DSYM_FILE_NAME=${DSYM_SRC##*/}\n        DSYM_SYMBOL_OUT_ZIP_NAME=\"${DSYM_FILE_NAME}.bSymbol.zip\"\n        # 替换空格\n        DSYM_SYMBOL_OUT_ZIP_NAME=\"${DSYM_SYMBOL_OUT_ZIP_NAME// /_}\"\n        \n        # 声明符号表临时目录和备份目录\n        DSYM_ZIP_OUT_DIR=${BUILD_DIR}/BuglySymbolsTemp\n        DSYM_SYMBOL_BACKUP_DIR=${BUILD_DIR}/BuglySymbolsBackup\n        \n        if [ ! -e \"${DSYM_ZIP_OUT_DIR}\" ]; then\n        mkdir ${DSYM_ZIP_OUT_DIR}\n        fi\n        \n        if [ ! -e \"${DSYM_SYMBOL_BACKUP_DIR}\" ]; then\n        mkdir ${DSYM_SYMBOL_BACKUP_DIR}\n        fi\n        \n        # 备份并清理\n        find ${DSYM_ZIP_OUT_DIR} -name \"*.bSymbol.zip\" -print0 | xargs -0 -I {} mv {} ${DSYM_SYMBOL_BACKUP_DIR}\n        /bin/rm -rf \"${DSYM_ZIP_OUT_DIR}/*.bSymbol.zip\"\n        \n        DSYM_ZIP_FPATH=\"${DSYM_ZIP_OUT_DIR}/${DSYM_SYMBOL_OUT_ZIP_NAME}\"\n        \n        # 提取符号信息\n        echo \"--------------------------------\"\n        echo \"Step 3: Extract symbol info from .dSYM file. to ${DSYM_ZIP_FPATH}\"\n        \n        if [ ! -f \"$BUGLY_SYMBOL_JAR_PATH\" ]; then\n        exitWithMessage \"Error: Jar file '${BUGLY_SYMBOL_JAR_PATH}' was not found. \\nPlease copy the jar file into ~/bin folder.\" 1\n        fi\n        \n        echo \"--------------------------------\"\n        (/usr/bin/java -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_SRC}\" -o \"${DSYM_ZIP_FPATH}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n        echo \"--------------------------------\"\n        \n        if [ ! -e \"${DSYM_ZIP_FPATH}\" ]; then\n        DSYM_SYMBOL_OUT_ZIP_NAME=$(ls ${DSYM_ZIP_OUT_DIR} | grep \".bSymbol.zip\")\n        DSYM_ZIP_FPATH=\"${DSYM_ZIP_OUT_DIR}/${DSYM_SYMBOL_OUT_ZIP_NAME}\"\n        DSYM_SYMBOL_OUT_ZIP_NAME=${DSYM_SYMBOL_OUT_ZIP_NAME//&/_}\n            fi\n            \n            if [ ! -e \"${DSYM_ZIP_FPATH}\" ] ; then\n            exitWithMessage \"no symbol file zip archive generated: ${DSYM_ZIP_FPATH}\" 0\n            fi\n            \n            echo \"Step 4: Upload the symbols of dSYM.\"\n            echo \"--------------------------------\"\n            echo \"zip : ${DSYM_SYMBOL_OUT_ZIP_NAME}\"\n            echo \"dir : ${DSYM_ZIP_FPATH}\"\n            \n            echo \"dSYM upload domain: ${DSYM_UPLOAD_DOMAIN}\"\n            DSYM_UPLOAD_URL=\"http://${DSYM_UPLOAD_DOMAIN}/upload/dsym?app=${BUGLY_APP_ID}&pid=2&ver=${BUGLY_APP_VERSION}&n=${DSYM_SYMBOL_OUT_ZIP_NAME}&key=${BUGLY_APP_KEY}&bid=${BUNDLE_IDENTIFIER}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            # Upload dSYM to Bugly\n            echo \"curl --header \"Content-Type:application/zip\" --data-binary \"@${DSYM_ZIP_FPATH}\" \"${DSYM_UPLOAD_URL}\" --verbose\"\n            \n            echo \"--------------------------------\"\n            STATUS=$(/usr/bin/curl --header \"Content-Type:application/zip\" --data-binary \"@${DSYM_ZIP_FPATH}\" \"${DSYM_UPLOAD_URL}\" --verbose)\n            echo \"--------------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\":true\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n            \n            echo \"----------------------------------------------------------------\"\n        }\n        \n        # .dSYM文件信息\n        \n        DSYM_FOLDER=\"${DWARF_DSYM_FOLDER_PATH}\"\n        IFS=$'\\n'\n        \n        echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n        RET=\"F\"\n        \n        for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n        RET=\"T\"\n        echo \"Found dSYM file: $dsymFile\"\n        uploadDSYM $dsymFile\n        done\n        \n        if [ $RET = \"F\" ]; then\n        exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n        fi";
+		};
+		8C6826D18842F15AFBE89CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		946B790FBD113A4152C79661 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpacetimeAlarmUITests/Pods-SpacetimeAlarmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2D94B37FF6552EEEFE5BE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpacetimeAlarm/Pods-SpacetimeAlarm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A3D248DE0103D97BB1EC93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpacetimeAlarmTests/Pods-SpacetimeAlarmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A002B1DDE76C264F937CCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpacetimeAlarm/Pods-SpacetimeAlarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E56A5C9EA7881548E51ACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpacetimeAlarmUITests/Pods-SpacetimeAlarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88095F251DC42E27003C10EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88095F2D1DC42E27003C10EF /* AppDelegate.swift in Sources */,
+				88095F711DC43923003C10EF /* UITools.swift in Sources */,
+				88095F811DC46AB2003C10EF /* AlarmViewController.swift in Sources */,
+				8876F9261DC49B7A001BFFF9 /* AddMapAlarmViewController.swift in Sources */,
+				88914C3A1DC4A71500AC1769 /* MapAlarmDB.swift in Sources */,
+				886052B21DC86E2E001B5677 /* AlarmClockViewController.swift in Sources */,
+				886622C91DC6D5FD00501656 /* SettingViewController.swift in Sources */,
+				886052B41DC87B65001B5677 /* AlarmClockCell.swift in Sources */,
+				88777BD01DC627000086E997 /* AudioViewController.swift in Sources */,
+				8876F9241DC49A48001BFFF9 /* TextInputCell.swift in Sources */,
+				88A554091DC8BA0500C29FDD /* WeeksViewController.swift in Sources */,
+				886622CD1DC6D6DD00501656 /* BaseTableViewController.swift in Sources */,
+				886622C71DC6D36100501656 /* MonitorLocation.swift in Sources */,
+				88914C3C1DC4D41B00AC1769 /* MapViewController.swift in Sources */,
+				88777BCC1DC5B9780086E997 /* Location.swift in Sources */,
+				8826EC091DC9F27A00256E7D /* MonitorTime.swift in Sources */,
+				88095F6C1DC43561003C10EF /* Params.swift in Sources */,
+				88777BCA1DC585F40086E997 /* AddressCell.swift in Sources */,
+				88095F7E1DC46A94003C10EF /* BaseNavigationController.swift in Sources */,
+				88095F731DC4489F003C10EF /* Tools.swift in Sources */,
+				88A554051DC8954800C29FDD /* DatePicker.swift in Sources */,
+				88DC31981DC47F74002B0577 /* AlarmCell.swift in Sources */,
+				88CE055E1DC88DEA009D6801 /* AlarmDB.swift in Sources */,
+				88095F831DC46D12003C10EF /* TriangleView.swift in Sources */,
+				88095F7F1DC46A94003C10EF /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88095F391DC42E27003C10EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88095F421DC42E27003C10EF /* SpacetimeAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88095F441DC42E27003C10EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88095F4D1DC42E27003C10EF /* SpacetimeAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88095F3F1DC42E27003C10EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88095F281DC42E27003C10EF /* SpacetimeAlarm */;
+			targetProxy = 88095F3E1DC42E27003C10EF /* PBXContainerItemProxy */;
+		};
+		88095F4A1DC42E27003C10EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88095F281DC42E27003C10EF /* SpacetimeAlarm */;
+			targetProxy = 88095F491DC42E27003C10EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88095F301DC42E27003C10EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88095F311DC42E27003C10EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88095F351DC42E27003C10EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88095F361DC42E27003C10EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88095F4F1DC42E27003C10EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88095F501DC42E27003C10EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88095F521DC42E27003C10EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91219FC1FF9331804D0F7C7 /* Pods-SpacetimeAlarm.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = N5KSFY67W3;
+				INFOPLIST_FILE = SpacetimeAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sww.SpacetimeAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpacetimeAlarm/SpacetimeAlarm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88095F531DC42E27003C10EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15879001E54F04009F93BED /* Pods-SpacetimeAlarm.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = N5KSFY67W3;
+				INFOPLIST_FILE = SpacetimeAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sww.SpacetimeAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpacetimeAlarm/SpacetimeAlarm-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88095F551DC42E27003C10EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D9C5169449DAAF48356704 /* Pods-SpacetimeAlarmTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N5KSFY67W3;
+				INFOPLIST_FILE = SpacetimeAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sww.SpacetimeAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpacetimeAlarm.app/SpacetimeAlarm";
+			};
+			name = Debug;
+		};
+		88095F561DC42E27003C10EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BA4D0F673226E99190D19D /* Pods-SpacetimeAlarmTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N5KSFY67W3;
+				INFOPLIST_FILE = SpacetimeAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sww.SpacetimeAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpacetimeAlarm.app/SpacetimeAlarm";
+			};
+			name = Release;
+		};
+		88095F581DC42E27003C10EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07709D0926C7587EB7D59F8F /* Pods-SpacetimeAlarmUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N5KSFY67W3;
+				INFOPLIST_FILE = SpacetimeAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sww.SpacetimeAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpacetimeAlarm;
+			};
+			name = Debug;
+		};
+		88095F591DC42E27003C10EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31EED0C24C25E4455208A68 /* Pods-SpacetimeAlarmUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N5KSFY67W3;
+				INFOPLIST_FILE = SpacetimeAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sww.SpacetimeAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpacetimeAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88095F241DC42E27003C10EF /* Build configuration list for PBXProject "SpacetimeAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88095F4F1DC42E27003C10EF /* Debug */,
+				88095F501DC42E27003C10EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88095F511DC42E27003C10EF /* Build configuration list for PBXNativeTarget "SpacetimeAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88095F521DC42E27003C10EF /* Debug */,
+				88095F531DC42E27003C10EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88095F541DC42E27003C10EF /* Build configuration list for PBXNativeTarget "SpacetimeAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88095F551DC42E27003C10EF /* Debug */,
+				88095F561DC42E27003C10EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88095F571DC42E27003C10EF /* Build configuration list for PBXNativeTarget "SpacetimeAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88095F581DC42E27003C10EF /* Debug */,
+				88095F591DC42E27003C10EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88095F211DC42E27003C10EF /* Project object */;
+}

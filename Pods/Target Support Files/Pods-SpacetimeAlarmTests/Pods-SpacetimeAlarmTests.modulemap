@@ -1,0 +1,6 @@
+framework module Pods_SpacetimeAlarmTests {
+  umbrella header "Pods-SpacetimeAlarmTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
